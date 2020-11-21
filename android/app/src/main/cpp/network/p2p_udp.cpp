@@ -31,7 +31,7 @@ bool p2p_udp::connect(bool isShowMsg) {
 
     LOGIN_STATUS p_ls;
     int p_loginIndex=-1;
-    int p_p2p =1;
+    int p_p2p =0;
     for (int i = 0; i < m_sips.size(); ++i) {
         p_ls=  p2p_start(m_sips[i].c_str(),m_sport,m_uname.c_str(),"",0,p_p2p);
         if(p_ls==LOGIN_STATUS::L_LOGIN)
