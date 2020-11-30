@@ -163,13 +163,12 @@ public class GameActivity extends Activity implements eventInterface {
                     public void onClick(DialogInterface dialog, int whichButton) {
                         ActivityManager am = (ActivityManager)getSystemService (Context.ACTIVITY_SERVICE);
                         assert am != null;
-                        //am.restartPackage(getPackageName());
                        finish();
+                       System.exit(0);
                     }
                 })
                 .setNegativeButton("取消", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int whichButton) {
-
                     }
                 }).show();
         return false;

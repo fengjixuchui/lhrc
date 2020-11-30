@@ -6,8 +6,8 @@
 #define CONNID int
 #define BYTE unsigned char
 
-#define S_HOST {"bjvideoproxy.110route.cn","shvideoproxy.110route.cn","gzvideoproxy.110route.cn"}
-#define S_IP {"117.78.50.23","124.71.172.133","121.37.204.50"}
+//#define S_HOST {"bjvideoproxy.110route.cn","shvideoproxy.110route.cn","gzvideoproxy.110route.cn"}
+//#define S_IP {"117.78.50.23","124.71.172.133","121.37.204.50"}
 
 enum handleType
 {

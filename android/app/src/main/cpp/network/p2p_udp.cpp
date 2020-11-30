@@ -363,7 +363,7 @@ bool p2p_udp::p2p_OnClose() {
 bool p2p_udp::sendStateSignal(p2p_udp::SIGNAL_STATUS signal) {
     m_gameStatus=signal;
     char p_str[64]={};
-    sprintf(p_str,"fun=setState&signal=%d",signal);
+    sprintf(p_str,"fun=setState&sendImg=%d&sendVoice=%d",signal,signal);
     Elog("%s\r\n",p_str);
     sendData(p_str,strlen(p_str));
     return true;
