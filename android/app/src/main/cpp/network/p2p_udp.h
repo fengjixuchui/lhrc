@@ -13,7 +13,7 @@
 #define S_HOST {"kefuproxy1.110route.cn","kefuproxy2.110route.cn","kefuproxy3.110route.cn"}
 #define S_IP {"106.15.103.97","47.107.149.9","182.92.76.127"}
 
-typedef enum server_head
+ enum server_head
 {
     server_rsa,
     server_rc4,
